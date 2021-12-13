@@ -3,5 +3,5 @@ puts ((0..11).map{|i|"On the #{%w[first second third four fif six seven eigh nin
 |nine ladies dancX, |eight maids a-milkX, |seven swans a-swimmX,
 |six geese a-layX, |five gold rXs;
 |four callX birds, |three French hens, |two turtle doves
-".split(?|)[11-i..]*""+"and "if i>0}a partridge in a pear tree.
+and ".split(?|)[11-i..]*""}a partridge in a pear tree.
 "}*?\n).gsub ?X,"ing"
